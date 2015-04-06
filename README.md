@@ -3,7 +3,7 @@ ssh-serial
 
 ssh-serial provides a Linux systems with a simple serial console server for SSH.
 It is implemented as a service for the Portable
-[Secure Shell](http://www.openssh.com/)
+[Open Secure Shell](http://www.openssh.com/)
 server.
 
 
