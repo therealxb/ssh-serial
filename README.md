@@ -3,7 +3,7 @@ ssh-serial
 
 ssh-serial provides a Linux systems with a simple serial console server for SSH.
 It is implemented as a service for the Portable
-[Secure Shell](http://www.openssh.com/)
+[Open Secure Shell](http://www.openssh.com/)
 server.
 
 
@@ -19,9 +19,8 @@ Copyright and license
 Copyright © Glen Turner of Semaphore, South Australia, 2015.
 
 This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
+modify it under the terms of version 2 of the GNU General Public License
+as published by the Free Software Foundation.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
