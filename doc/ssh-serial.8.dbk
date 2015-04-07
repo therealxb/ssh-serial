@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+           "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+
+<refentry id="ssh-serial">
+
+  <refmeta>
+    <refentrytitle>ssh-serial</refentrytitle>
+    <manvolnum>8</manvolnum>
+  </refmeta>
+
+
+  <refnamediv id="name">
+    <refname>ssh-serial</refname>
+    <refpurpose>serial terminal server, SSH daemon service</refpurpose>
+  </refnamediv>
+
+
+  <refsynopsisdiv id="synopsis">
+    <cmdsynopsis>
+      <command>ssh-serial</command>
+      <arg>--bits-per-second <replaceable>bps</replaceable></arg>
+      <arg>--bits-per-second-input <replaceable>bps</replaceable></arg>
+      <arg>--bits-per-second-output <replaceable>bps</replaceable></arg>
+      <arg>--data-carrier-detect <group choice="req"><arg>0</arg><arg>1</arg></group></arg>
+      <arg>--device <replaceable>device</replaceable></arg>
+      <arg>--hardware-handshaking <group choice="req"><arg>0</arg><arg>1</arg></group></arg>
+      <arg>--version</arg>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+
+
+  <refsect1 id="description">
+    <title>Description</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="options">
+    <title>Options</title>
+
+    <cmdsynopsis><arg>--bits-per-second <replaceable>bps</replaceable></arg></cmdsynopsis>
+
+    <para>Equivalent to stating
+    <option>--bits-per-second-input</option>
+    and
+    <option>--bits-per-second-output</option>
+    with the supplied value.</para>
+
+  </refsect1> <!-- options -->
+
+
+  <refsect1 id="files">
+    <title>Files</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="environment">
+    <title>Environment</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="diagnostics">
+    <title>Diagnostics</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="bugs">
+    <title>Bugs</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="example">
+    <title>Example</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="author">
+    <title>Author</title>
+
+    <para>Some text.</para>
+  </refsect1>
+
+
+  <refsect1 id="see-also">
+    <title>See also</title>
+
+    <para>ssh, conserver.</para>
+  </refsect1>
+
+</refentry>
